@@ -25,7 +25,7 @@ export default function LinksPage() {
         <div className="absolute inset-0 bg-black/60 z-10" />
       </div>
 
-      <main className="relative z-20 flex flex-col items-center justify-center w-full max-w-sm sm:max-w-md grow">
+      <main className="relative z-20 flex flex-col items-center justify-center w-full max-w-sm sm:max-w-md">
         <div className="bg-black/30 backdrop-blur-xl rounded-2xl p-6 sm:p-8 shadow-2xl w-full text-center">
           <header className="mb-6 flex flex-col items-center">
             <h1 className="font-serif text-4xl font-bold text-silver tracking-wider">
@@ -75,6 +75,9 @@ export default function LinksPage() {
               </a>
             </Button>
           </div>
+          <p className="mt-6 text-sm text-white/50">
+            &copy; {new Date().getFullYear()} Noir Barber. Todos os direitos reservados.
+          </p>
         </div>
       </main>
 
